@@ -7,21 +7,18 @@
     android:paddingLeft="15dp"
     android:paddingRight="15dp"
     android:paddingTop="15dp"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="horizontal">
 
     <FrameLayout
         android:id="@+id/frame1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </FrameLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
 
     <FrameLayout
         android:id="@+id/frame2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </FrameLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
 
 </LinearLayout>
